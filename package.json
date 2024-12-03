@@ -13,7 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "PORT=4000 react-scripts start",
+    "start": "PORT=3000 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -23,11 +23,6 @@
       "react-app",
       "react-app/jest"
     ]
-  },
-  "overrides": {
-    "react-web-qr-reader": {
-      "react": "^18.2.0"
-    }
   },
   "browserslist": {
     "production": [
